@@ -1,0 +1,74 @@
+body
+{
+  background: #388c12;
+  /*background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.3));*/
+}
+
+.hand
+{
+    cursor:pointer;
+}
+
+.ImagemThumbnail
+{
+  width: 100px;
+  height: 100px;
+}
+
+p
+{
+  text-align: justify;
+}
+
+.CadastroUsuario
+{
+  background-color: white;
+}
+
+.botaoesCadastro
+{
+  float: right;
+}
+
+.brand
+{
+  font-size: 40px;
+  font-family: serif;
+  font-style: italic;
+}
+
+.navbarSuperior
+{
+  position: relative;
+}
+
+.jumbotron
+{
+  background-color: #E6E6E6;
+}
+
+footer
+{
+	/*clear: both;*/
+	background: black;
+	color: white;
+	line-height: 1.5;
+	padding: 2% 5%;
+	top: 100%;
+  font-size: 15px;
+  font-family: Open Sans;
+	/*border: 1px solid red;*/
+}
+
+footer address
+{
+  position: relative;
+  text-align: center;
+}
+
+.icones
+{
+  position: relative;
+  left: 40%;
+  width: 50%;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Cadastro de Acesso</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link href="../css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-modificado.css" rel="stylesheet">
+  <link href="css/estilo.css" rel="stylesheet">
+</head>
+
+<body class="CadastroUsuario">
+  <br>
+  <div class="container">
+    <form class="" action="../Controller/UsuarioController.php" method="post">
+    <input type="hidden" name="method" value="insere">
+      <div class="row dadosLogin">
+        <fieldset>
+          <legend><strong>Cadastro de Acesso</strong></legend>
+          <div class="form-group col-md-12">
+            <label for="campo1">E-mail</label>
+            <input type="email" class="form-control" name="email" placeholder="Seu e-mail">
+          </div>
+
+          <div class="form-group col-md-4">
+            <label for="campo3">Usuário</label>
+            <input type="name" class="form-control" name="login" placeholder="Seu Usuário">
+          </div>
+
+          <div class="form-group col-md-3">
+            <label for="campo3">Senha</label>
+            <input type="password" class="form-control" name="senha" placeholder="Sua senha">
+          </div>
+
+          <div class="form-group col-md-3">
+            <label for="campo3">Confimar Senha</label>
+            <input type="password" class="form-control" name="confirmaSenha" placeholder="Confirme sua senha">
+          </div>
+
+          <div class="form-group col-md-2">
+            <label for="campo3">Tipo</label>
+            <select name="tipoUsuario" class="form-control">
+              <option>Selecione</option>
+              <option>Aluno</option>
+              <option>Professor</option>
+              <option>Parceiro Externo</option>
+            </select>
+          </div>
+
+        </fieldset>
+      </div>
+
+      <br>
+      <div class="row">
+        <div class="form-inline botaoesCadastro">
+          <button type="submit" class="btn btn-success">Concluir Cadastro</button>
+          <button type="reset" class="btn btn-success">Limpar</button>
+          <button type="button" class="btn btn-success">Cancelar</button>
+        </div>
+      </div>
+      <br>
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery.js" type="text/javascript" ></script>
+  <script src="../js/jquery.maskedinput.js" type="text/javascript"></script>
+  <script src="../js/script.js" type="text/javascript" ></script>
+</body>
+</html>
